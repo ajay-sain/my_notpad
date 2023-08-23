@@ -1,0 +1,7 @@
+#define NOTEPAD_VERSION_MAJOR @notepad_VERSION_MAJOR@
+#define NOTEPAD_VERSION_MINOR @notepad_VERSION_MINOR@
+
+#cmakedefine USE_ADDR
+#ifdef USE_ADDR
+    #include<addr.h>
+#endif
